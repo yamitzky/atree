@@ -13,26 +13,26 @@ var max = 19,
 function run() {
   var ctx = document.getElementById('scene').getContext('2d'),
     redSpiralShadow = createSpiral({
-      foreground: "#660000",
-      background: "#330000",
+      foreground: "#2e2818",
+      background: "#000000",
       isLeft: true,
       yLocalScale: 1.01
     }),
     redSpiral = createSpiral({
-      foreground: "#ff0000",
-      background: "#440000",
+      foreground: "#675b38",
+      background: "#3c3420",
       isLeft: true,
       yLocalScale: 1
     }),
     cyanSpiralShadow = createSpiral({
-      foreground: "#003300",
+      foreground: "#3d170a",
       background: "#000000",
       isLeft: false,
       yLocalScale: 1.01
     }),
     cyanSpiral = createSpiral({
-      foreground: "#00ffcc",
-      background: "#005633",
+      foreground: "#a5411b",
+      background: "#632610",
       isLeft: false,
       yLocalScale: 1
     });
